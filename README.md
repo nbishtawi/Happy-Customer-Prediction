@@ -2,9 +2,7 @@
 
 ## Overview  
 **Customer Satisfaction Prediction** is a machine learning project that predicts whether a customer is happy or unhappy based on survey responses.  
-The project uses classification models and explainability techniques to identify the most important factors influencing customer satisfaction.  
-
-This project was originally called *Happy Customer Prediction* and the notebook file was named *Assignment 1 Final Workbook.ipynb*. It has now been renamed and documented for clarity and reproducibility.  
+The project uses classification models and explainability techniques to identify the most important factors influencing customer satisfaction.   
 
 Note: The dataset (ACME-HappinessSurvey2020.csv) is **not included** in this repository due to proprietary restrictions.  
 
