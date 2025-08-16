@@ -1,11 +1,57 @@
-# Happy Customer Prediction
-Apziva Project 1 Happy Customer Prediction 
-Background:
+# Customer Satisfaction Prediction  
 
-We are one of the fastest growing startups in the logistics and delivery domain. We work with several partners and make on-demand delivery to our customers. During the COVID-19 pandemic, we are facing several different challenges and everyday we are trying to address these challenges.
+## Overview  
+**Customer Satisfaction Prediction** is a machine learning project that predicts whether a customer is happy or unhappy based on survey responses.  
+The project uses classification models and explainability techniques to identify the most important factors influencing customer satisfaction.  
 
-We thrive on making our customers happy. As a growing startup, with a global expansion strategy we know that we need to make our customers happy and the only way to do that is to measure how happy each customer is. If we can predict what makes our customers happy or unhappy, we can then take necessary actions.
+This project was originally called *Happy Customer Prediction* and the notebook file was named *Assignment 1 Final Workbook.ipynb*. It has now been renamed and documented for clarity and reproducibility.  
 
-Getting feedback from customers is not easy either, but we do our best to get constant feedback from our customers. This is a crucial function to improve our operations across all levels.
+Note: The dataset (ACME-HappinessSurvey2020.csv) is **not included** in this repository due to proprietary restrictions.  
 
-We recently did a survey to a select customer cohort. You are presented with a subset of this data. We will be using the remaining data as a private test set.
+---
+
+## Goals  
+- Predict if a customer is **happy (1)** or **unhappy (0)** based on survey ratings.  
+- Identify which factors (delivery, contents, price, courier, app usability) most influence satisfaction.  
+- Provide interpretable ML models to support business decision-making.  
+
+---
+
+## Features  
+- **Data Preprocessing:** Handling missing values, scaling, and encoding categorical variables.  
+- **Class Imbalance Handling:** SMOTE oversampling and undersampling techniques.  
+- **Feature Selection:** Statistical selection with `SelectKBest`.  
+- **Modeling:**  
+  - Logistic Regression  
+  - Decision Trees, Random Forests  
+  - Gradient Boosting, AdaBoost, XGBoost  
+  - Bagging & Stacking classifiers  
+- **Hyperparameter Tuning:** GridSearchCV and RandomizedSearchCV.  
+- **Explainability:** LIME and SHAP visualizations for feature importance.  
+
+---
+
+## 🔬 Methodology  
+1. **Data Preparation** – Imported survey data, handled missing values, applied scaling and encoding.  
+2. **Exploratory Analysis** – Analyzed distributions and correlations among features.  
+3. **Model Training** – Trained multiple ML classifiers on customer happiness prediction.  
+4. **Model Tuning** – Optimized hyperparameters using cross-validation.  
+5. **Interpretability** – Applied LIME and SHAP to explain model predictions.  
+
+---
+
+## Results  
+- Achieved strong classification accuracy and recall on test data.  
+- SHAP and LIME highlighted **delivery satisfaction (X1)** and **price fairness (X4)** as key drivers of customer happiness.  
+- Ensemble models (Random Forest, XGBoost) performed best.  
+
+---
+
+## 🛠️ Tools & Technologies  
+- **Python**  
+- **Scikit-learn** – preprocessing, models, evaluation  
+- **XGBoost** – boosting algorithms  
+- **Imbalanced-learn** – SMOTE/undersampling  
+- **LIME, SHAP** – interpretability  
+- **Matplotlib, Seaborn** – visualization  
+- **Pandas, NumPy** – data manipulation  
