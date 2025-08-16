@@ -31,7 +31,7 @@ Note: The dataset (ACME-HappinessSurvey2020.csv) is **not included** in this rep
 
 ---
 
-## 🔬 Methodology  
+## Methodology  
 1. **Data Preparation** – Imported survey data, handled missing values, applied scaling and encoding.  
 2. **Exploratory Analysis** – Analyzed distributions and correlations among features.  
 3. **Model Training** – Trained multiple ML classifiers on customer happiness prediction.  
@@ -47,7 +47,7 @@ Note: The dataset (ACME-HappinessSurvey2020.csv) is **not included** in this rep
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 - **Python**  
 - **Scikit-learn** – preprocessing, models, evaluation  
 - **XGBoost** – boosting algorithms  
